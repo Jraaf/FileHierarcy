@@ -1,0 +1,15 @@
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\bin\Debug\net7.0\API.DAL.deps.json
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\bin\Debug\net7.0\API.DAL.runtimeconfig.json
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\bin\Debug\net7.0\API.DAL.dll
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\bin\Debug\net7.0\API.DAL.pdb
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\API.DAL.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\API.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\API.DAL.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\API.DAL.AssemblyInfo.cs
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\API.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\API.DAL.sourcelink.json
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\API.DAL.dll
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\refint\API.DAL.dll
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\API.DAL.pdb
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\API.DAL.genruntimeconfig.cache
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.DAL\obj\Debug\net7.0\ref\API.DAL.dll
