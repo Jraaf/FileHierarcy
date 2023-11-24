@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "og8MJQXWhBkcF+tkfUetsXBCmrpzgWcptmJGIO9HJEMphwfDOdsPY0zUYq7V4oIuzlJO/f5s3zQGOYaWuBKjqg==",
+  "dgSpecHash": "eOsj+YQ/cjeWTr8J7RCiWhjEIXPB8yDfOiM+21dm7ORKmkSPFgNBO2SRn/SNkWndXxUyOoWzzMGHoG+8zT+1Iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Acer\\Desktop\\projects\\FileHierarcy\\FileHierarcy\\API.BLL\\API.BLL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.14\\microsoft.entityframeworkcore.7.0.14.nupkg.sha512",

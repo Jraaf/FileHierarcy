@@ -1,5 +1,8 @@
-using API.BLL;
+using API.BLL.Profiles;
+using API.BLL.Services;
 using API.DAL.EF;
+using API.DAL.Repository;
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,9 +17,13 @@ builder.Services.AddDbContext<HierarcyContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-
+//register services
+builder.Services.AddScoped<IFolderRepository, FolderRepository>();
 builder.Services.AddScoped<IFolderService, FolderService>();
-builder.Services.AddScoped<IFolderService, FolderService>();
+//mapper
+var automapper = new MapperConfiguration(t => t.AddProfile(new FolderProfile()));
+IMapper mapper=automapper.CreateMapper();
+builder.Services.AddSingleton(mapper);
 
 var app = builder.Build();
 

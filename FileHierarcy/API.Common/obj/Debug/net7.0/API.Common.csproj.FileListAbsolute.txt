@@ -1,0 +1,13 @@
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\bin\Debug\net7.0\API.Common.deps.json
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\bin\Debug\net7.0\API.Common.dll
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\bin\Debug\net7.0\API.Common.pdb
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\obj\Debug\net7.0\API.Common.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\obj\Debug\net7.0\API.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\obj\Debug\net7.0\API.Common.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\obj\Debug\net7.0\API.Common.AssemblyInfo.cs
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\obj\Debug\net7.0\API.Common.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\obj\Debug\net7.0\API.Common.sourcelink.json
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\obj\Debug\net7.0\API.Common.dll
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\obj\Debug\net7.0\refint\API.Common.dll
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\obj\Debug\net7.0\API.Common.pdb
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.Common\obj\Debug\net7.0\ref\API.Common.dll

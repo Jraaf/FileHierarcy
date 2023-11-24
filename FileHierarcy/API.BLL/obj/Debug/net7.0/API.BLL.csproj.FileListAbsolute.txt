@@ -14,3 +14,5 @@ C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.BLL\obj\Debug\net7.
 C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.BLL\obj\Debug\net7.0\refint\API.BLL.dll
 C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.BLL\obj\Debug\net7.0\API.BLL.pdb
 C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.BLL\obj\Debug\net7.0\ref\API.BLL.dll
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.BLL\bin\Debug\net7.0\API.Common.dll
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\API.BLL\bin\Debug\net7.0\API.Common.pdb

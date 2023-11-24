@@ -10,6 +10,7 @@ namespace API.DAL.Repository
     public interface IFolderRepository
     {
         Task<Folder> GetAsync(int id);
+        Task<List<Folder>> GetChildrenAsync(int Id);
         Task<bool> AddAsync(Folder folder);
         Task<bool>UpdateAsync(int Id,Folder folder);
         Task<bool> DeleteAsync(int id);

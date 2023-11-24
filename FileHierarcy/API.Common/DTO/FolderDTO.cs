@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace API.BLL
+namespace API.Common.DTO
 {
-    public interface IFolderService
+    public class FolderDTO
     {
+        public string Name { get; set; }
     }
 }

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BSnf651rTFx6APOuXsajuFvlKx8yAcFXc8D5dr2k4x1eh0dzsP3tGfJK9ltsZqCxwkoivZz/EQjOQT5hC+7ybQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Acer\\Desktop\\projects\\FileHierarcy\\FileHierarcy\\API.Common\\API.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

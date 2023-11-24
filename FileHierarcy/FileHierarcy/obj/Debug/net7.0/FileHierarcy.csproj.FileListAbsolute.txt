@@ -259,3 +259,6 @@ C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\FileHierarcy\bin\Debug\
 C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\FileHierarcy\bin\Debug\net7.0\API.DAL.pdb
 C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\FileHierarcy\obj\Debug\net7.0\FileHierarcy.RazorAssemblyInfo.cache
 C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\FileHierarcy\obj\Debug\net7.0\FileHierarcy.RazorAssemblyInfo.cs
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\FileHierarcy\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\FileHierarcy\bin\Debug\net7.0\API.Common.dll
+C:\Users\Acer\Desktop\projects\FileHierarcy\FileHierarcy\FileHierarcy\bin\Debug\net7.0\API.Common.pdb

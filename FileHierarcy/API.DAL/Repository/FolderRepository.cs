@@ -1,5 +1,6 @@
 ﻿using API.DAL.EF;
 using API.DAL.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,6 +46,15 @@ namespace API.DAL.Repository
         public async Task<Folder> GetAsync(int id)
         {
             return await context.Folders.FindAsync(id);            
+        }
+
+        public async Task<List<Folder>> GetChildrenAsync(int Id)
+        {
+            var folders = await context.Folders.ToListAsync();
+            var res = (from f in folders
+                       where f.ParentId == Id
+                       select f).ToList();
+            return res;
         }
 
         public async Task<bool> UpdateAsync(int Id, Folder folder)
