@@ -14,5 +14,7 @@ namespace API.BLL.Services
         Task<bool> AddAsync(CreateFolderDTO folder);
         Task<bool> UpdateAsync(int Id, CreateFolderDTO folder);
         Task<bool> DeleteAsync(int Id);
+        Task<bool> DeleteAll();
+        Task<int> Start();
     }
 }

@@ -30,6 +30,23 @@ namespace API.DAL.Repository
             }
         }
 
+        public async Task<bool> DeleteAll()
+        {
+            try
+            {
+                var data = await context.Folders.ToListAsync();
+                context.Folders.RemoveRange(data);
+                await context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+        }
+
         public async Task<bool> DeleteAsync(int id)
         {
 
@@ -54,7 +71,58 @@ namespace API.DAL.Repository
             var res = (from f in folders
                        where f.ParentId == Id
                        select f).ToList();
+            //var parent=(from f in folders
+            //            where f.Id==Id
+            //            select f).ToList().First();
+            //res.Add(parent);
             return res;
+        }
+
+        public async Task<int> Start()
+        {
+            
+
+            try
+            { 
+                var rootInd=(await context.Folders.AddAsync(
+                    new Folder { Name = "Creating Digital Images" })).Entity.Id;
+                await context.SaveChangesAsync();
+                var all = await context.Folders.ToListAsync();
+                var rootId = (from f in all
+                                where f.Name == "Creating Digital Images"
+                          select f).ToList().FirstOrDefault().Id;
+
+                var leftbranchId = (await context.Folders.AddAsync(
+                    new Folder { Name = "Resourses", ParentId = rootId })).Entity.Id;
+
+                await context.Folders.AddAsync(new Folder { Name = "Evidence", ParentId = rootId });
+                
+                var rightbranchId = (await context.Folders.AddAsync(
+                    new Folder { Name = "Graphic Products", ParentId = rootId })).Entity.Id;
+
+                await context.SaveChangesAsync();
+                all = await context.Folders.ToListAsync();
+                leftbranchId = (from f in all
+                              where f.Name == "Resourses"
+                                select f).ToList().FirstOrDefault().Id;
+                rightbranchId = (from f in all
+                                where f.Name == "Graphic Products"
+                                 select f).ToList().FirstOrDefault().Id;
+                List < Folder > folders = new List<Folder>();
+                folders.Add(new Folder {  Name = "Primary Sources", ParentId = leftbranchId });
+                folders.Add(new Folder { Name = "Secondary Sources", ParentId = leftbranchId });
+                folders.Add(new Folder {  Name = "Process", ParentId = rightbranchId });
+                folders.Add(new Folder {  Name = "Final Product", ParentId = rightbranchId });
+
+                await context.AddRangeAsync(folders);
+                await context.SaveChangesAsync();
+                return rootId;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public async Task<bool> UpdateAsync(int Id, Folder folder)

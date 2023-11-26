@@ -13,6 +13,7 @@ namespace FileHierarcy.Controllers
         {
             this.service = service;
         }
+
         [HttpGet("GetFolder")]
         public async Task<IActionResult> GetFolder(int Id)
         {
@@ -40,6 +41,13 @@ namespace FileHierarcy.Controllers
 
             return data ? Ok(data) : BadRequest();
         }
+        [HttpPost("Start")]
+        public async Task<IActionResult> Start()
+        {
+            var data = await service.Start();
+            ViewData["rootID"]=data;
+            return data>0 ? Ok(data) : BadRequest();
+        }
         [HttpPut("UpdateFolder")]
         public async Task<IActionResult> UpdateFolder(int Id,CreateFolderDTO folder)
         {
@@ -51,6 +59,13 @@ namespace FileHierarcy.Controllers
         public async Task<IActionResult> DeleteFolder(int Id)
         {
             var data = await service.DeleteAsync(Id);
+
+            return data ? Ok(data) : BadRequest();
+        }
+        [HttpDelete("DeleteAll")]
+        public async Task<IActionResult> DeleteAll()
+        {
+            var data = await service.DeleteAll();
 
             return data ? Ok(data) : BadRequest();
         }

@@ -14,5 +14,7 @@ namespace API.DAL.Repository
         Task<bool> AddAsync(Folder folder);
         Task<bool>UpdateAsync(int Id,Folder folder);
         Task<bool> DeleteAsync(int id);
+        Task<bool> DeleteAll();
+        Task<int> Start();
     }
 }

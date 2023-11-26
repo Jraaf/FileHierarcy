@@ -43,5 +43,15 @@ namespace API.BLL.Services
             var fol=mapper.Map<Folder>(folder);
             return await repository.UpdateAsync(Id, fol);
         }
+
+        public async Task<bool> DeleteAll()
+        {
+            return await repository.DeleteAll();
+        }
+
+        public async Task<int> Start()
+        {
+            return await repository.Start();
+        }
     }
 }
